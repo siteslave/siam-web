@@ -11,13 +11,15 @@ import { AboutComponent } from './about/about.component';
 
 import { UserService } from './user.service';
 import { EditComponent } from './edit/edit.component';
+import { AddComponent } from './add/add.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    EditComponent
+    EditComponent,
+    AddComponent
   ],
   imports: [
     BrowserModule,
